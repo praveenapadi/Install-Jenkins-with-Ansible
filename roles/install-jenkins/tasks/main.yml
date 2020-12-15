@@ -1,5 +1,5 @@
 ---
-- name: install yum-utils ok
+- name: install yum-utils
   become: yes
   become_user: root 
   yum:
@@ -21,7 +21,7 @@
     url: http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
     dest: /etc/yum.repos.d/jenkins.repo
 
-- name: import jenkins key ok
+- name: import jenkins key
   rpm_key:
     state: present
     key: https://pkg.jenkins.io/redhat-stable/jenkins.io.key 
