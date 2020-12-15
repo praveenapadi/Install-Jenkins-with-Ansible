@@ -21,7 +21,7 @@
     url: http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
     dest: /etc/yum.repos.d/jenkins.repo
 
-- name: import jenkins key
+- name: import jenkins key ok
   rpm_key:
     state: present
     key: https://pkg.jenkins.io/redhat-stable/jenkins.io.key 
