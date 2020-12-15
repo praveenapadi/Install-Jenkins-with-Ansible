@@ -1,5 +1,5 @@
 ---
-- name: install yum-utils
+- name: install yum-utils ok
   become: yes
   become_user: root 
   yum:
