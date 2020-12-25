@@ -20,7 +20,7 @@
     group: root
     mode: '0644'
 
-# For online download of IIM, use this task
+# For online download of IIM, use this tasks
 #- name: Download IBM Installation Manager
 #  get_url:
 #    url: "{{ iim_repository_url }}/{{ bin_file }}"
